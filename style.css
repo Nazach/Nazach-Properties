@@ -702,3 +702,26 @@ footer p:nth-child(2){
         height: 30rem;
     }    
 }
+
+/*------------Scrollbar-------------*/
+
+::-webkit-scrollbar{
+	width: 1em;
+}
+
+::-webkit-scrollbar-track{
+	background: rgb(0, 0, 0);
+	border-radius: 100vw;
+	margin-block: .3em;
+}
+
+::-webkit-scrollbar-thumb{
+	background: hsl(240, 100%, 99%);
+	border: .20em solid rgb(0, 0, 0);
+	border-radius: 100vw;
+}
+
+
+
+
+
